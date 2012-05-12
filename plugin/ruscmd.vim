@@ -34,7 +34,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> п p
 	map <unique> ш [
 	map <unique> щ ]
-	map <unique> ю \
 	map <unique> а a
 	map <unique> с s
 	map <unique> д d
@@ -63,7 +62,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> П P
 	map <unique> Ш {
 	map <unique> Щ }
-	map <unique> Ю |
 	map <unique> А A
 	map <unique> С S
 	map <unique> Д D
