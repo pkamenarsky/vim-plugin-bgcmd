@@ -12,79 +12,72 @@ let g:loaded_ruscmd = 1
 
 
 if !exists('g:no_plugin_abbrev') && !exists('g:no_ruscmd_abbrev')
-	cabbrev <expr> ив	getcmdtype()==':' && getcmdline()=="ив"	? "bd"	: "ив"
-	cabbrev <expr> ит	getcmdtype()==':' && getcmdline()=="ит"	? "bn"	: "ит"
-	cabbrev <expr> й	getcmdtype()==':' && getcmdline()=="й"	? "q"	: "й"
-	cabbrev <expr> йф	getcmdtype()==':' && getcmdline()=="йф"	? "qa"	: "йф"
-	cabbrev <expr> ц	getcmdtype()==':' && getcmdline()=="ц"	? "w"	: "ц"
-	cabbrev <expr> цй	getcmdtype()==':' && getcmdline()=="цй"	? "wq"	: "цй"
+	cabbrev <expr> бд	getcmdtype()==':' && getcmdline()=="бд"	? "bd"	: "бд"
+	cabbrev <expr> бн	getcmdtype()==':' && getcmdline()=="бн"	? "bn"	: "бн"
+	cabbrev <expr> я	getcmdtype()==':' && getcmdline()=="я"	? "q"	: "я"
+	cabbrev <expr> яа	getcmdtype()==':' && getcmdline()=="яа"	? "qa"	: "яа"
+	cabbrev <expr> в	getcmdtype()==':' && getcmdline()=="в"	? "w"	: "в"
+	cabbrev <expr> вя	getcmdtype()==':' && getcmdline()=="вя"	? "wq"	: "вя"
 endif
 
 if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
-	map <unique> ё `
-	map <unique> й q
-	map <unique> ц w
-	map <unique> у e
-	map <unique> к r
-	map <unique> е t
-	map <unique> н y
-	map <unique> г u
-	map <unique> ш i
-	map <unique> щ o
-	map <unique> з p
-	map <unique> х [
-	map <unique> ъ ]
-	map <unique> ф a
-	map <unique> ы s
-	map <unique> в d
-	map <unique> а f
-	map <unique> п g
-	map <unique> р h
-	map <unique> о j
-	map <unique> л k
-	map <unique> д l
-	map <unique> ж ;
-	map <unique> э '
-	map <unique> я z
-	map <unique> ч x
-	map <unique> с c
-	map <unique> м v
-	map <unique> и b
-	map <unique> т n
-	map <unique> ь m
-	map <unique> б ,
-	map <unique> ю .
-	map <unique> Ё ~
-	map <unique> Й Q
-	map <unique> Ц W
-	map <unique> У E
-	map <unique> К R
-	map <unique> Е T
-	map <unique> Н Y
-	map <unique> Г U
-	map <unique> Ш I
-	map <unique> Щ O
-	map <unique> З P
-	map <unique> Х {
-	map <unique> Ъ }
-	map <unique> Ф A
-	map <unique> Ы S
-	map <unique> В D
-	map <unique> А F
-	map <unique> П G
-	map <unique> Р H
-	map <unique> О J
-	map <unique> Л K
-	map <unique> Д L
-	map <unique> Ж :
-	map <unique> Э "
-	map <unique> Я Z
-	map <unique> Ч X
-	map <unique> С C
-	map <unique> М V
-	map <unique> И B
-	map <unique> Т N
-	map <unique> Ь M
-	map <unique> Б <
-	map <unique> Ю >
+	map <unique> ч `
+	map <unique> я q
+	map <unique> в w
+	map <unique> е e
+	map <unique> р r
+	map <unique> т t
+	map <unique> ъ y
+	map <unique> у u
+	map <unique> и i
+	map <unique> о o
+	map <unique> п p
+	map <unique> ш [
+	map <unique> щ ]
+	map <unique> ю \
+	map <unique> а a
+	map <unique> с s
+	map <unique> д d
+	map <unique> ф f
+	map <unique> г g
+	map <unique> х h
+	map <unique> й j
+	map <unique> к k
+	map <unique> л l
+	map <unique> з z
+	map <unique> ь x
+	map <unique> ц c
+	map <unique> ж v
+	map <unique> б b
+	map <unique> н n
+	map <unique> м m
+	map <unique> Я Q
+	map <unique> В W
+	map <unique> Е E
+	map <unique> Р R
+	map <unique> Т T
+	map <unique> Ъ Y
+	map <unique> У U
+	map <unique> И I
+	map <unique> О O
+	map <unique> П P
+	map <unique> Ш {
+	map <unique> Щ }
+	map <unique> Ю |
+	map <unique> А A
+	map <unique> С S
+	map <unique> Д D
+	map <unique> Ф F
+	map <unique> Г G
+	map <unique> Х H
+	map <unique> Й J
+	map <unique> К K
+	map <unique> Л L
+	map <unique> З Z
+	map <unique> Ь X
+	map <unique> Ц C
+	map <unique> Ж V
+	map <unique> Б B
+	map <unique> Н N
+	map <unique> М M
 endif
